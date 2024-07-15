@@ -14,7 +14,7 @@ RUN apt-get update && apt-get install -y\
     && rm -rf /var/lib/apt/lists/*
 
 #Baixando os arquivos
-RUN git clone https://github.com/streamlit/streamlit-example.git .
+RUN git clone https://github.com/TheAcoff/streamlit-container.git .
 
 # Baixando as bibliotecas
 RUN pip3 install -r requirements.txt
