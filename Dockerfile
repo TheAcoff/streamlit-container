@@ -5,8 +5,6 @@ WORKDIR /app
 
 # Baixando Python, Pip, Git e outros
 RUN apt-get update && apt-get install -y\
-    python3.12 \
-    python3-pip
     build-essential \
     curl \
     software-properties-common \
